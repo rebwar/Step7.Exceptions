@@ -8,7 +8,7 @@ namespace ConsoleApp12
     {
         
         public UserNameException(string username):
-            base(string.Format("invalid UserName {0}",username))
+            base(string.Format($"invalid UserName {username}"))
         {
              
         }
