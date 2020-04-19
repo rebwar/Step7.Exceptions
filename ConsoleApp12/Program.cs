@@ -9,10 +9,10 @@ namespace ConsoleApp12
     {
         static void Main(string[] args)
         {
-            //UnManagedExp();
+            //UnManagedException();
             //DividedByZeroException();
             //ExceptionFilter();
-            // CallCustomException();
+            //CallCustomException();
             //FailFast();
             //DefensiveTest(-100,"jksjdklas.");
         }
@@ -48,7 +48,7 @@ namespace ConsoleApp12
             }
         }
 
-        private static void UnManagedExp()
+        private static void UnManagedException()
         {
             var file = File.ReadAllLines("2.txt");
             try
